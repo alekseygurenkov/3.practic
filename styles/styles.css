@@ -1,0 +1,113 @@
+body {
+    font-family: "Manrope";
+    width: 100%;
+    background: #f5f5f5;
+}
+
+.wrapper {
+	width: 1400px;
+	margin: 0px auto;
+    padding: 125px;
+    background-color: #ffffff;
+    font-family: "Manrope", sans-serif;
+    border: 2px solid red;
+    box-sizing: border-box;
+    height: 7211px;
+}
+/* main {
+    position: relative;
+    width: 1400px;
+    height: 7211px;
+    background-color: #ffffff;
+} */
+
+main h1 {
+    color: rgb(18, 18, 18);
+    font-family: "Manrope";
+    font-size: 60px;
+    font-weight: 100;
+    line-height: 60px;
+    letter-spacing: -3%;
+    text-align: left;
+
+    position: relative;
+    width: 956px;
+    height: 120px;
+    /* left: 125px;
+    right: 125px; */
+    margin-bottom: 30px;
+}
+/* main p {
+	margin: 10px 0;
+	text-align: justify;
+	font: 15px;
+} */
+.img-1 {
+    width: 1150px;
+    height: 500px;
+    background-image: url(../resources/img_1.png);
+    position: relative;
+    /* left: 125px;
+    right: 125px; */
+    margin-bottom: 150px;
+}
+.img-1 p {
+    
+    color: rgb(255, 255, 255);
+    font-family: Manrope;
+    text-align: left;
+    /* margin-left:40px;
+    margin-top: 379px; */
+    width: 430px;
+    height: 81px;
+    font-size: 20px;
+    padding-left: 40px;
+    padding-top: 379px;
+    letter-spacing: -3%;
+}
+
+.studia {
+    width: 1051px;
+    height: 518px;
+    /* padding-left:128px; */
+}
+
+.studia h6 {
+    Width: 54px;
+    Height: 24px;
+    font-family: "Manrope";
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(18, 18, 18);
+    margin-bottom: 31px;
+}
+
+.studia p {
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 61px;
+    font-family: "Manrope";
+    margin-bottom: 30px;
+}
+
+.studia .btn {
+    display: block;
+    width: 257px;
+    height: 67px;
+    border: 1px rgb(173, 24, 24) solid;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 67px;
+    background-color: rgb(173, 24, 24);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+    margin-left: 0px;
+    Font: "Manrope";
+    font-weight: 400;
+    font-size: 20px;
+}
+.studia .btn:hover {
+    color: rgb(173, 24, 24);
+    background-color: #ffffff;
+}
