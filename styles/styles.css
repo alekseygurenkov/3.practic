@@ -70,9 +70,10 @@ main h1 {
     width: 1051px;
     height: 518px;
     /* padding-left:128px; */
+    margin-bottom: 150px;
 }
 
-.studia h6 {
+.h6_h {
     Width: 54px;
     Height: 24px;
     font-family: "Manrope";
@@ -110,4 +111,43 @@ main h1 {
 .studia .btn:hover {
     color: rgb(173, 24, 24);
     background-color: #ffffff;
+}
+
+.item {
+    margin-bottom: 90px;
+    box-sizing: border-box;
+}
+
+.item__image {
+    box-sizing: border-box;
+    width: 1150px;
+    height: 450px;
+    margin-bottom: 15px;
+}
+
+.item__title {
+    box-sizing: border-box;
+    width: 600px;
+    height: 41px;
+    color: rgb(18, 18, 18);
+    font-family: Manrope;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: -3%;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.item__cart-btn {
+    box-sizing: border-box;
+    width: 111px;
+    height: 27px;
+    color: rgb(173, 24, 24);
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: -3%;
+    text-align: left;
 }
