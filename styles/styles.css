@@ -43,6 +43,7 @@ main h1 {
 	font: 15px;
 } */
 .img-1 {
+    position: relative;
     width: 1150px;
     height: 500px;
     background-image: url(../resources/img_1.png);
@@ -52,8 +53,10 @@ main h1 {
     margin-bottom: 150px;
 }
 .img-1 p {
-    
-    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+    color: #ffffff;
     font-family: Manrope;
     text-align: left;
     /* margin-left:40px;
@@ -61,8 +64,8 @@ main h1 {
     width: 430px;
     height: 81px;
     font-size: 20px;
-    padding-left: 40px;
-    padding-top: 379px;
+    /* padding-left: 40px;
+    padding-top: 379px; */
     letter-spacing: -3%;
 }
 
@@ -262,3 +265,67 @@ main h1 {
 .c1-1:nth-last-child(3) {
     background-color: aqua;
 } */
+
+
+
+.nav-section {
+    min-width: 1153.35px;
+    /* background: black;
+    box-shadow: 0px 0px 8px 4px black; дает эффект небольшой тени */
+
+}
+
+.nav-container {
+    width: 1153.35px;
+    height: 24.18px;
+    margin: 0 auto;
+    border: 1px solid red;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+
+}
+
+.logo-link {
+    display: inline-block;
+    margin-right: 98px;
+}
+
+.logo {
+    display: block;
+    width: 126.89px;
+    height: 21.42px;
+}
+
+.nav {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2px;
+
+}
+
+.nav__link {
+    display: inline-block;
+    width: 135px;
+    height: 37px;
+    line-height: 37px;
+    text-align: center;
+    /* border: 1px solid red; */
+    margin-right: 40px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #e6e6e6;
+    text-decoration: none;
+
+}
+
+.nav__link:hover {
+    text-decoration: underline;
+    color: aqua; 
+}
+
+.nav__link_activ {
+    text-decoration: underline;
+    color: aqua;
+}
