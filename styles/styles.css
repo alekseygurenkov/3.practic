@@ -7,10 +7,10 @@ body {
 .wrapper {
 	width: 1400px;
 	margin: 0px auto;
-    padding: 125px;
+    padding: 33px 125px 125px 125px;
     background-color: #ffffff;
     font-family: "Manrope", sans-serif;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     box-sizing: border-box;
     
 }
@@ -47,7 +47,6 @@ main h1 {
     width: 1150px;
     height: 500px;
     background-image: url(../resources/img_1.png);
-    position: relative;
     /* left: 125px;
     right: 125px; */
     margin-bottom: 150px;
@@ -270,8 +269,9 @@ main h1 {
 
 .nav-section {
     min-width: 1153.35px;
-    /* background: black;
-    box-shadow: 0px 0px 8px 4px black; дает эффект небольшой тени */
+    margin-bottom: 71px;
+    /* background: rgb(240, 104, 104); */
+    /* box-shadow: 0px 0px 8px 4px rgb(241, 162, 162);  */
 
 }
 
@@ -279,17 +279,17 @@ main h1 {
     width: 1153.35px;
     height: 24.18px;
     margin: 0 auto;
-    border: 1px solid red;
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 20px;
+    /* border: 1px solid red; */
+    /* padding-left: 0px;
+    padding-top: 32.82px;
+    padding-bottom: 71px;
+    padding-right: 20px; */
 
 }
 
 .logo-link {
     display: inline-block;
-    margin-right: 98px;
+    margin-right: 458.46px;
 }
 
 .logo {
@@ -301,31 +301,49 @@ main h1 {
 .nav {
     display: inline-block;
     vertical-align: top;
-    margin-top: 2px;
+    /* margin-top: 2px; */
 
 }
 
 .nav__link {
     display: inline-block;
-    width: 135px;
-    height: 37px;
-    line-height: 37px;
+    /*width: auto;
+     height: 24px; */
+    line-height: 21.42px;
     text-align: center;
-    /* border: 1px solid red; */
-    margin-right: 40px;
+    /* border: 1px solid rgb(76, 24, 180); */
     font-size: 18px;
     text-transform: uppercase;
-    color: #e6e6e6;
+    color: #121212;
     text-decoration: none;
+    margin-left: 60px;
+    font-weight: 400;
 
 }
 
 .nav__link:hover {
     text-decoration: underline;
-    color: aqua; 
+    opacity: 0.5; 
 }
 
 .nav__link_activ {
     text-decoration: underline;
-    color: aqua;
+    opacity: 0.5;
+}
+.section {
+    border: 1px solid red;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+#contacts {
+    width: auto;
+    height: 500px;
+    background-color: #FFFFFF;
+    font-size: 47px;
+    text-align: center;
+    line-height: 500px;
+
 }
