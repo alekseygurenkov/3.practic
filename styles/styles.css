@@ -338,12 +338,40 @@ main h1 {
 html {
     scroll-behavior: smooth;
 }
-#contacts {
+/* #contacts {
     width: auto;
     height: 500px;
     background-color: #FFFFFF;
     font-size: 47px;
     text-align: center;
     line-height: 500px;
+} */
 
+.section_10 {
+    height: 717px;
+    width: 1400px;
+    box-sizing: border-box;
+    margin: 0px auto;
+    border: 1px solid transparent;
+    background-image: url(/resources/Rectangle_10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.container_10 {
+    display: block;
+    width: 443px;
+    height: 82px;
+    margin-left: 125px;
+    margin-top: 575px;
+    /* H3 */
+    color: rgb(255, 255, 255);
+    font-family: Manrope;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: -3%;
+    text-align: left;
+    border: 1px solid transparent;
 }
