@@ -338,14 +338,6 @@ main h1 {
 html {
     scroll-behavior: smooth;
 }
-/* #contacts {
-    width: auto;
-    height: 500px;
-    background-color: #FFFFFF;
-    font-size: 47px;
-    text-align: center;
-    line-height: 500px;
-} */
 
 .section_10 {
     height: 717px;
@@ -353,7 +345,7 @@ html {
     box-sizing: border-box;
     margin: 0px auto;
     border: 1px solid transparent;
-    background-image: url(../resources/Rectangle_10.jpg);
+    background-image: url(/resources/Rectangle_10.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
@@ -365,7 +357,6 @@ html {
     height: 82px;
     margin-left: 125px;
     margin-top: 575px;
-    /* H3 */
     color: rgb(255, 255, 255);
     font-family: Manrope;
     font-size: 30px;
@@ -374,4 +365,126 @@ html {
     letter-spacing: -3%;
     text-align: left;
     border: 1px solid transparent;
+}
+
+#contacts {
+    width: 1400px;
+    height: 553px;
+    margin: 0px auto;
+    background-color: #FFFFFF;
+}
+
+.h6_h-3::before {
+        content: ' ';
+        display: block;
+        background-image: url(../resources/ic_outline-phone-iphone.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        top: 150px;
+        left: 120px;
+}
+
+.h6_h-3 {
+    /* Контакты */
+    position: relative;
+    padding-left: 124px;
+    padding-top: 186px;
+    width: 92px;
+    height: 24px;
+    color: rgb(18, 18, 18);
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+.tel {
+    width: 500px;
+    height: 60px;
+    margin-top: 33px;
+    margin-left: 125px;
+
+}
+
+.tel a {
+    color: #121212;
+    font-family: Manrope;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: -3%;
+    text-align: left;
+    text-decoration: none;
+}
+
+.mail {
+    width: 500px;
+    height: 60px;
+    margin-top: 30px;
+    margin-bottom: 160px;
+    margin-left: 125px;
+}
+
+.mail a {
+    color: rgb(18, 18, 18);
+    font-family: Manrope;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: -3%;
+    text-align: left;
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+.footer {
+    width: 1400px;
+    height: 229px;
+    background-color: #121212;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+.footer-box {
+width: 800px;
+height: 25px;
+margin: 0 auto;
+/* border: 1px solid red; */
+}
+
+.box_f {
+    display: inline-block;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    margin-left: 55px;
+}
+
+.box_f a {
+    color: rgb(255, 255, 255);
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -3%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.footer_p {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: -3%;
+    margin: 0 auto;
+    margin-top: 87px;
+    margin-bottom: 30px;
+    opacity: 0.5;
 }
